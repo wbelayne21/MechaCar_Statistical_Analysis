@@ -14,7 +14,7 @@ The current manufaturing data does not meet the manifacturing specification for 
 
 ## T-Tests on Suspension Coils
 
-![PSI t test D3](https://user-images.githubusercontent.com/92958091/152861338-21fb5b06-6929-4a21-a5a1-b146137f4305.png)
+![PSI t test D3](https://user-images.githubusercontent.com/92958091/152862827-240e1ff8-3dd9-4ad8-a015-9c8e7486791b.png)
 
 From the one sample te test we learn that the p-values for the overall lot, Lot 1 and Lot 2 are 0.06, 1 and 0.6 respectively which are greater than our significance level of 0.05. This means that there is not enough evidence to reject the null hypothesis and infer that the means are statistically similar to the population mean. 
 Data for Lot 3, however, shows a p-value of 0.042 and since this is less than 0.05 we can conclude that there is significant evidence to reject the null hypothesis and state that the mean of Lot 3 is significantly different from the population mean. 
