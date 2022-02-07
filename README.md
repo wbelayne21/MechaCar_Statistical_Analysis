@@ -21,4 +21,9 @@ The current manufaturing data does not meet the manifacturing specification for 
 From the one sample te test we learn that the p-values for the overall lot, Lot 1 and Lot 2 are 0.06, 1 and 0.6 respectively which are greater than our significance level of 0.05. This means that there is not enough evidence to reject the null hypothesis and infer that the means are statistically similar to the population mean. 
 Data for Lot 3, however, shows a p-value of 0.042 and since this is less than 0.05 we can conclude that there is significant evidence to reject the null hypothesis and state that the mean of Lot 3 is significantly different from the population mean. 
 
+## Study Design: MechaCar vs Competition
 
+A comparison study of key metrics of MachaCar and its competitors is benificial for the company as it will draw more consumers in. These crucial metrics would be reliability, value after 5 years, safety, (city/highway) fuel efficiency, horsepower. 
+Our null hypotheses would be that the test statistic for each metric is the same as the competitors or a random pool of population data. For example, we could hypothesize that the average reliability rating for MachaCar's is greater than that of it's competitors. 
+We can use a one-sample t-test to determine if there is a significant difference between the average of reliability rating between MachaCar and population data.  In order to calculate this we would need rating data for the prototypes. 
+We could also use multiple linear regression to study how much variance in say price, is accounted for in a linear combination of other metrics (independent variables) such as drivetrain and fuel efficiency. 
