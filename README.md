@@ -6,3 +6,6 @@
 - The solpe of the linear model is not zero. This is because our P-value is 5.35e-11 which is significantly less than the significance level of 0.05 which in turn warrants that there is significant evidence to reject the null hypothesis. 
 - Our multiple R-squared value of 0.712 indicates a strong corelation among the independent metrices we analyzed against mpg. Therefore we can say that the corelation is sufficient to predict mpg of MechaCar Prototypes. 
 
+## Summary Statistics on Suspension Coils
+![PSI summary](https://user-images.githubusercontent.com/92958091/152853956-c3dc7856-f64b-44d1-8f06-3cf92c940b40.png)
+The current manufaturing data does not meet the manifacturing specification for each individual lot since the variance for Lot 3 exceedes the maximum 100 lbs/in^2 for the capacity of suspension coils. However, the total summary shows a variance of only 62 which is less than 100 and meets design specification. 
